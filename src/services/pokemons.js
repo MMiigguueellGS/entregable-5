@@ -23,7 +23,8 @@ export const getPokemonsById = async (pokemonId) =>{
         name: data.name,
         types: formatTypes(data.types),
         stats: formatStats(data.stats),
-        image: data.sprites.versions["generation-v"]["black-white"].animated.front_default,
+        // image: data.sprites.versions["generation-v"]["black-white"].animated.front_default,
+        image: data.sprites.other['official-artwork'].front_default,
         weight: data.weight,
         
         height: data.height
