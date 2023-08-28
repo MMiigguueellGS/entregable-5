@@ -1,9 +1,9 @@
 const bgStylePokemonType = {
-    grass: "bg-gradient-to-b from-green-800 to-green-100",
+    grass: "bg-gradient-to-b from-[#9bd3c6] to-[#c6df9f]",
     bug: "bg-gradient-to-b from-green-500 to-green-300",
     fire: "bg-gradient-to-b from-orange-500 to-orange-300",
     water: "bg-gradient-to-b from-blue-500 to-blue-300",
-    normal: "bg-gradient-to-b from-pink-950 to-pink-300",
+    normal: "bg-gradient-to-b from-[#79545c] to-pink-300",
     rock: "bg-gradient-to-b from-gray-600 to-gray-300",
   }
 

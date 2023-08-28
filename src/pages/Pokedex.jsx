@@ -32,6 +32,13 @@ export const Pokedex = () => {
           <select value={pokemonType} onChange={handleChange(setPokemonType)}>
             <option value="">All pokemons</option>
             <option value="rock">Rock</option>
+            <option value="bug">Bug</option>
+            <option value="fire">Fire</option>
+            <option value="water">Water</option>
+            <option value="ice">Ice</option>
+            <option value="electric">Electric</option>
+            <option value="dragon">Dragon</option>
+
           </select>
         </form>
       </section>
